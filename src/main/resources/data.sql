@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS accounts;
+ 
+CREATE TABLE accounts (
+  id INT PRIMARY KEY,
+  amount DECIMAL(10,2) NOT NULL
+);
